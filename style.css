@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e1f2d8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Form Container */
+.pixel-window {
+    background-color: #f4f4f4;
+    border: 4px solid #8a8a8a;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h2 {
+    font-size: 26px;
+    color: #3b7b56;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+/* Label and Input Styling */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    color: #4a4a4a;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 2px solid #8a8a8a;
+    border-radius: 6px;
+    background-color: #d4f0d9;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Add placeholder styling */
+input::placeholder {
+    color: #8a8a8a; /* Light grey for placeholder text */
+    font-style: italic;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #4c9f70;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b7b56;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .pixel-window {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e1f2d8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Collected page container */
+.pixel-window {
+    background-color: #f4f4f4;
+    border: 4px solid #8a8a8a;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h2 {
+    font-size: 26px;
+    color: #3b7b56;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+/* Paragraph Style */
+p {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+/* Button Style for "Back to Form" */
+button {
+    background-color: #4c9f70;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #3b7b56;
+}

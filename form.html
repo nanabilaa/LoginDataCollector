@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Data Pengguna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pixel-window">
+        <h2>Form Input Data Pengguna</h2>
+        <form action="proses.php" method="POST">
+            <label for="Nama">Nama:</label>
+            <input type="text" name="Nama" placeholder="Masukkan Nama Anda" required id="name-input"><br>
+            
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" placeholder="Masukkan Email Anda" required id="email-input"><br>
+            
+            <label for="Umur">Umur:</label>
+            <input type="number" name="Umur" placeholder="Masukkan Usia Anda" required id="age-input"><br>
+            
+            <input type="submit" value="Kirim" id="submit-button">
+        </form>
+    </div>
+
+    <!-- sound -->
+    <audio id="click-sound" src="assets/click.mp3"></audio>
+        <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
